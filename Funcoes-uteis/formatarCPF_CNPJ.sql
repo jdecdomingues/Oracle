@@ -1,3 +1,9 @@
+/****************************************
+*****FUNÇÃO PARA FORMATAR CPF E CNPJ*****
+*****    BANCO DE DADOS: ORACLE     *****
+*****************************************/
+
+
 CREATE OR REPLACE FUNCTION formatarCPF_CNPJ(Valor VARCHAR2)
    RETURN VARCHAR2
 IS
